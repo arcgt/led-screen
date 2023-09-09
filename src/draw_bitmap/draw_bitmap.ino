@@ -11,7 +11,7 @@ int count;
 
 void setup() {
   strip.begin();           // Initialize NeoPixel object
-  strip.setBrightness(5);  // Set BRIGHTNESS to about 4% (max = 255)
+  strip.setBrightness(5);  // Brightness (max = 255)
   strip.show();            // Initialize all pixels to 'off'
 }
 
