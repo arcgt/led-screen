@@ -21,5 +21,8 @@ python scripts/img_to_bitmap.py --img=<path-to-image>
 3. Paste image array into file `src/draw_bitmap/draw_bitmap.ino` variable `img_array`.
 4. Upload `src/draw_bitmap/draw_bitmap.ino` to Arduino Nano Every using Arduino IDE.
 
+## Displaying Custom Animation
+1. Follow the steps for "Displaying Custom Image", however instead, copy and paste the frames of your animation to the `draw_bitmap_animation.ino` file. You can have a maximum of 3 frames (due to memory shortage).
+
 ## Rainbow
 Simply upload `src/rainbow/rainbow.ino` to Arduino Nano Every using Arduino IDE.
